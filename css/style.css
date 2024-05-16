@@ -1,0 +1,194 @@
+/*General*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    }
+
+ /*Tipografía*/
+
+ @font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto-Regular.ttf);
+ }
+
+ #rubik {
+    font-family: "Rubik Scribble", system-ui;
+  } 
+
+ /*Cuerpo */
+
+body {
+    box-sizing: border-box;
+}
+
+/*Navbar*/
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar{
+    padding-left: 30px;
+    background-color: #ff275e;
+    position: sticky 20px;
+    
+}
+
+.cafemictlan{
+    color: black;
+    font-size: 50px;
+    padding: .5px;
+    font-family: "Roboto";
+    font-weight: bold;
+    align-items: right;
+    margin-left: 500px;
+    min-width: fit-content;
+}
+
+#imagenes_nuestrahistoria{
+    width: 600px;
+    height: 350px;
+
+}
+
+.nav-link{
+    color: black;
+}
+
+.cafemictlan:hover{
+    color: aliceblue;
+
+}
+
+.navbar a:hover {
+    color:aliceblue;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding: 20px;
+    min-width: fit-content;
+}
+
+/* Textos principales de páginas*/
+
+.container h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 33px;
+}
+
+/* Subtextos */
+
+.container h2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto";
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Footer general */
+footer{
+    background: #018599;
+    display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   padding-left: 0; 
+}
+
+.enlaces img{
+    width: 75px;
+    padding: 10px;
+}
+
+/* Digimundo __ Tammers*/
+
+.img-galle { 
+    display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center; 
+    margin-top: 25px;
+    background-color: wheat;
+    padding: 15px;
+    border: #018599;
+    border-style: 5px;
+    border-radius: 1%;
+    /*overflow: scroll;*/ 
+    box-sizing: border-box;
+}
+
+.variedades_cafe{
+    width: 300px;
+    
+
+}
+
+.texto__tamers {
+    padding-left: 25px;
+}
+
+/* Imagenes Digimundo principales */
+.row img {
+    width: 600px;
+    padding-top: 30px;
+}
+
+/* Imagenes Contenido Digimons*/
+.digimon__pic img{
+    width: auto;
+    height: 230px;
+}
+
+/* Contacto*/
+.contacto img {
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+/* Tienda */
+
+.card img {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.card {
+    padding: 10;
+}
+
+.formulario-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
